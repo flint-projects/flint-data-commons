@@ -1,0 +1,8 @@
+name "probe-data-commons"
+targetType "executable"
+sourcePaths "source"
+importPaths "source"
+targetPath "build"
+targetName "probe-data-commons"
+dflags "-preview=dip1000"
+dependency "flint:data-commons" path="../../.."
