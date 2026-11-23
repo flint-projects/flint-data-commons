@@ -1,0 +1,7 @@
+// flint-projects/flint-data-commons: the data-commons repo of Flint. Its packages keep the flint:* names; build them in a
+// workspace with the repos they depend on (python3 tools/workspace.py dub-root, in the flint repo).
+name "flint"
+description "Flint data-commons (integrated repo)"
+license "Apache-2.0"
+targetType "none"
+subPackage "flint-data-commons"
